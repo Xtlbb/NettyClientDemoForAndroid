@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sy.myapplication.MainActivity">
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip">
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+           />
+        <Button
+            android:id="@+id/button_outlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"
+            android:layout_marginLeft="5dip"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip">
+        <Button
+            android:id="@+id/button_workpause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停工作"
+            />
+        <Button
+            android:id="@+id/button_workon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续工作"
+            android:layout_marginLeft="5dip"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip">
+        <Button
+            android:id="@+id/button_payable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应付款"
+            />
+        <Button
+            android:id="@+id/button_payup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实付款"
+            android:layout_marginLeft="5dip"/>
+        <Button
+            android:id="@+id/button_paychange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="找零"
+            android:layout_marginLeft="5dip"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="评论"
+        android:layout_marginLeft="10dip"/>
+    <Button
+        android:id="@+id/button_patientinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="病人信息"/>
+</LinearLayout>

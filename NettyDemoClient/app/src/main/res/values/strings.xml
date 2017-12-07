@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">报价器客户端测试</string>
+    <string name="login">{"cmd":"login","data":{"workerid":"1","workername":"aa","picture":"http://www.....","star":"5"}}/r/n</string>
+    <string name="loginout">{"cmd":"loginout","data":{"userid":"1","username":"aa"}}/r/n</string>
+    <string name="workpause">{"cmd":"workpause","data":{"userid":"1","username":"aa"}}/r/n</string>
+    <string name="workon">{"cmd":"workon","data":{"userid":"1","username":"aa"}}/r/n</string>
+    <string name="payable">{"cmd":"payable","data":{"fee":"500" }}/r/n</string>
+    <string name="payup">{"cmd":"payup","data":{"fee":"300" }}/r/n</string>
+    <string name="paychange">{"cmd":"paychange","data":{"fee":"200" }}/r/n</string>
+    <string name="patientinfo">{"cmd":"patientinfo","data":{"patientid":"1", "patientname":"ww","patientage":60,"patientsex":"男","section":"外科"}}</string>
+    <string name="comment">{"cmd":"comment","data":{"rank":"A"}}</string>
+</resources>
